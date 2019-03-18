@@ -1,1 +1,5 @@
 Solution to exercises https://github.com/udacity/deep-learning-v2-pytorch/tree/master/intro-to-pytorch
+
+
+docker build -t intropytorch:v1 .
+docker run -p 8888:8888   -v "$PWD":/home/jovyan/work   --rm -it intropytorch:v1
