@@ -35,6 +35,8 @@ model2 = Model2(p=0.5)
 
 import numpy as np
 a10 = np.array([2.0,2.0,2.0,2.0,2.0,2.0])
+a10 = np.array([[2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]])
+
 inputs = torch.from_numpy(a10)
 
 print("inputs")
