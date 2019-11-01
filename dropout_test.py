@@ -7,6 +7,9 @@ Each channel will be zeroed out independently on every forward call.
 
 Furthermore, the outputs are scaled by factor of 1/(1-p) during training. This means that during evaluation the module simply compute an identity function
 
+Improving neural networks by preventing co-adaptation of feature detectors .
+Prove: https://arxiv.org/abs/1207.0580
+
 '''
 
 import torch
